@@ -8,46 +8,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<style>
-
-@media screen and (min-width: 768px) {
-            img {
-                height: 130px;
-            }
-            #naslov{
-    display:inline-block;
-    margin-left:170px;
-    margin-top:20px;
-    margin-bottom:20px;
-}
-}
-@media screen and (min-width: 601px) and (max-width: 767px){
-    #naslov{
-    display:inline-block;
-    margin-left:130px;
-    margin-top:20px;
-    margin-bottom:20px;
-}
-img {
-    height: 100px;
-}
-}
-@media screen and (max-width: 600px) {
-            #naslov {
-              margin-left: 0px;
-              display:inline-block;
-            }
-            img {
-                height: 50px;
-            }
-}
-</style>
-
 <body>
         
-    <div style="background-color:#191A40;height: 30px"></div>
+    <div style="background-color:#191A40;height: 40px"></div>
          
     <section id="naslov">
             <img src="logo.png">
@@ -56,32 +23,34 @@ img {
     </section>
 
 <nav class="navbar bg-info navbar-expand-md navbar-light">
-    <a class="navbar-brand" href="#">Aleksandra Stamenković</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+
     <div class="collapse navbar-collapse" id="collapseid">
         <ul class="navbar-nav text-right">
            
             <li class="nav-item">
-                <a class="nav-link" href="#">NASLOVNA</a>
+                <a class="nav-link" href="#">ПОЧЕТНА</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">RAČUNARSTVO I INFORMATIKA</a>
+                <a class="nav-link" href="#">РАЧУНАРСТВО И ИНФОРМАТИКА</a>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">MATEMATIKA</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">MATEMATИKA</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">TRGOVAC I GODINA</a>
-                    <a class="dropdown-item" href="#">TRGOVAC III GODINA</a>
-                    <a class="dropdown-item" href="#">TRGOVINSKI TEHNIČAR III GODINA</a>
+                    <a class="dropdown-item" href="trgovacIgodina.html">TРГОВАЦ I ГОДИНА</a>
+                    <a class="dropdown-item" href="#">TРГОВАЦ III ГОДИНА</a>
+                    <a class="dropdown-item" href="#">TРГОВИНСКИ ТЕХНИЧАР III ГОДИНА</a>
                 </div>
             </li>
 
             <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ODELJENJE I/11</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">OДЕЉЕЊЕ I/11</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">SRPSKI JEZIK I KNJIŽEVNOST</a>
                         <a class="dropdown-item" href="#">ENGLESKI JEZIK</a>
@@ -90,22 +59,42 @@ img {
                 </li>
 
             <li class="nav-item">
-                    <a class="nav-link" href="https://trgovackaskola.edu.rs/">TRGOVAČKA ŠKOLA</a>
+                    <a class="nav-link" href="https://trgovackaskola.edu.rs/">TРГОВАЧКА ШКОЛА</a>
                 </li>
             <li class="nav-item dropdown">
         </ul>
     
     </div>    
 </nav>
-<section style="background-color: lightgrey;height:500px">
- 
+<section style="background-color: lightgrey;height:auto">
+    <div id="omotac">
+        <div id="vest">
+            <h3>Обавештење</h3>
+            <p>Поштовани ученици, због новонастале ситуације, све лекције и материјале потребне за часове
+                и наставу можете наћи овде. Пратите упутства и напомене дате у прилозима часова, посебно оне које се 
+                односе на датум и време предаје домаћих задатака. 
+                Срдачан поздрав и срећан рад!
+            </p>
+        </div>
+        <div id="vest">
+            <h3>Оцењивање</h3>
+            <p>Домаће задатке и све што је потребно да ми проследите радићете путем електрoнске поруке и 
+                то на следећи начин:<br>
+            НАСЛОВ_ПОРУКЕ: Ваше име и презиме, одељење<br>
+            ТЕЛО_ПОРУКЕ: Садржај у виду пдф, ворд или ексел документа <br>
+            послати на контакт адресу.
+          </p>
+
+        </div>
+
+    </div>
 
 </section>
 
-<div style="background-color:#191A40;height: 30px">
-       
+<div style="background-color:#191A40;height: 70px;text-align: center;padding: 10px;">
+       <p style="color:white"><i class="fa fa-envelope"></i>  alexsd991@yahoo.com<br>
+       АС Београд <i class="fa fa-copyright"> 2020</i></p>
 </div>
-
 </body>
 
 </html>
